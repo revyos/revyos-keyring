@@ -1,0 +1,2 @@
+keyrings/revyos-keyring.gpg usr/share/keyrings/
+keyrings/revyos-keyring.gpg etc/apt/trusted.gpg.d/

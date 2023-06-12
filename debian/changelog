@@ -1,0 +1,5 @@
+revyos-keyring (2023.06.12) unstable; urgency=medium
+
+  * Add revyos-keyring
+
+ -- Han Gao <gaohan@iscas.ac.cn>  Mon, 12 Jun 2023 13:27:53 +0800

@@ -1,0 +1,16 @@
+Source: revyos-keyring
+Section: misc
+Priority: optional
+Maintainer: Han Gao <gaohan@iscas.ac.cn>
+Build-Depends: debhelper-compat (= 12), gnupg, gawk
+Standards-Version: 3.9.8
+Rules-Requires-Root: no
+
+Package: revyos-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Recommends: gnupg
+Description: GnuPG keys of the RevyOS
+ The RevyOS project digitally signs its Release files. This package
+ contains the archive keys used for that.
